@@ -1,0 +1,33 @@
+.fundo{
+    width: 71.5rem;
+    height: 35rem;
+    background-color: var(--gray-100);
+    border-radius: 8px;
+    margin-left: 25.6%; 
+    background-size: cover; /* Cobrir todo o espaço */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Evitar repetição */
+}
+
+.post+ .post{
+    margin-top: 8rem;
+}
+
+.conteudo{
+    border-left: 0.1rem solid black;
+    margin-left: 25.6%;
+}
+
+.conteudoUm{
+    width: 20rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.conteudoDois{
+    width: 20rem;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    margin: 2rem auto;
+}
+
+.ghost{
+    height: 150px;
+}
+
+.ghost_baixo{
+    height: 48px;
+}
+
+@media(max-width: 768px){
+    .ghost{
+        display: none;
+    }
+
+    .ghost_baixo{
+        display: none;
+    }
+    
+}
